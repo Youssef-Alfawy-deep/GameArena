@@ -223,7 +223,11 @@ html {
   #home .content h1 {
     font-size: 2.2rem;
   }
-
+  #home {
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
   #home .content .btn-main,
   #home .content .btn-outline-main {
     padding: 10px 15px;
@@ -732,6 +736,25 @@ html {
 
   #whatwedo .section-head h3 {
     font-size: 1.3rem;
+  }
+
+  #whatwedo .card {
+    padding: 15px 10px;
+  }
+
+  #whatwedo .icon-box {
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+
+  #whatwedo .icon-box i {
+    font-size: 1.5rem;
+  }
+
+  #whatwedo .service-title {
+    font-size: 0.95rem;
   }
 }
 /* end what we do */
